@@ -43,7 +43,7 @@ class LoanAdmin(admin.ModelAdmin):
 
 class RewardAdmin(admin.ModelAdmin):
     list_display= ('name','message','customer_id ','date_time',)
-    search_fields=('name','message',)    
+    search_fields=('name','message', 'date_time',)    
 
 
 
